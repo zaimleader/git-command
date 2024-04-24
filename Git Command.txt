@@ -1,0 +1,23 @@
+# exportation du projet sur le platform github
+    1- git clone _url_.git
+
+# identification votre machine (PC) username & email pour exporter ou importer un ou des projets sur le platform github
+    1- git config --global user.name ""
+    2- git config --global user.email ""
+
+# Les étapes d'initialisations github avec votre projet
+
+    - créez un nouveau référentiel sur la ligne de commande
+        1- Créer un nouveau répertoire sur le github
+        2- Copier le lien de votre répertoire <remote-url.git>
+        3- git init 
+        4- add README.md
+        5- git commit "first commit"
+        6- git branch -M main 
+        7- git remote add origin <remote-url.git>
+        8- git push -u origin main 
+    
+    - pousser un dépôt existant depuis la ligne de commande
+        1- git remote add origin <remote-url.git>
+        2- git branch -M main 
+        3- git push -u origin main

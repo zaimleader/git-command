@@ -1,0 +1,3 @@
+Panneau de configuration\Comptes d’utilisateurs\Gestionnaire d'identification
+    -> informations d'identification Windows
+        -> github -> suprimer ou modifier le Compte
