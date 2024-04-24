@@ -27,3 +27,49 @@
     1- git add *
     2- git commit -m "J'ai modifié sur le fichier 'Git Command'"
     3- git push
+
+# Commit 
+    - Annuler la dernière commentaire avec sauvegarder les variables
+        git reset HEAD~
+    
+    - Annuler la dernière commentaire avec supprimer les variables
+        git reset --hard HEAD~
+    
+    - Annuler le commentaire spécifique avec sauvegarder les variables
+        git reset <votre commentaire>
+
+    - Annuler le commentaire spécifique avec supprimer les variables
+        git reset --hard <votre commentaire>
+    
+# Déffirents:
+    - entre le travail actuelle avec le github
+        git diff
+    
+    - entre les commentaires
+        git diff <commit>
+    
+    - entre deux commentaires
+        git diff <commit-1> <commit-2>
+    
+    - afficher les déffirents sur un fichier
+        git diff <file>
+
+# Management (Branch):
+    - afficher les Branch
+        git branch 
+    
+    - Créer un branch
+        git branch <nom-branch>
+
+    - Transformer de branch à un autre branch
+        git checkout <nom-branch>
+
+    - Supprimer un branch
+        git branch -d <nom-branch>
+
+# Merge
+    - git checkout main-branch
+    - git merge other-branch
+
+# Prendre les dernière modification sur votre projet sur le github
+    - git pull
