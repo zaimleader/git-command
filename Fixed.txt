@@ -1,3 +1,20 @@
 Panneau de configuration\Comptes d’utilisateurs\Gestionnaire d'identification
     -> informations d'identification Windows
         -> github -> suprimer ou modifier le Compte
+
+
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/zaimleader/NodeJs-Cours.git'
+
+	- Fetch the remote branch: git fetch origin main
+	- Check for conflict: git pull origin main
+	- Check your branch configuration: git branch -vv
+	- If your "main" branch is not correctly configured: git branch --set-upstream-to=origin/main main
+	- Force push: git push origin main --force
+
+git init
+git add .
+git commit -m "Manage Excel"
+git branch -M main
+git remote add origin https://github.com/zaimleader/Manage-Excel.git
+git push -u origin main --force
